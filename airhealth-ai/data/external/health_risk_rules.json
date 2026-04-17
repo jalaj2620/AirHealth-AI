@@ -1,0 +1,70 @@
+{
+  "descriptions": {
+    "Safe": "AQI 0-50, No respiratory irritation expected, outdoor activities safe for all groups",
+    "Moderate": "AQI 51-100, Some respiratory irritation for sensitive groups, caution for prolonged exposure",
+    "Unhealthy": "AQI 101-200, General population affected, sensitive groups should avoid outdoor activities",
+    "Hazardous": "AQI > 200, Everyone at risk, outdoor activities strongly discouraged"
+  },
+  "thresholds": {
+    "aqi_safe_limit": 50,
+    "aqi_moderate_limit": 100,
+    "aqi_unhealthy_limit": 200,
+    "thi_safe_limit": 28,
+    "thi_moderate_limit": 32,
+    "pollution_stress_threshold": 0.7,
+    "wind_stagnation_threshold": 1.5
+  },
+  "health_risk_classification": {
+    "Safe": {
+      "aqi_max": 50,
+      "thi_max": 28,
+      "conditions": "Low pollution + comfortable temperatures"
+    },
+    "Moderate": {
+      "aqi_max": 100,
+      "conditions": "Elevated AQI (51-100) OR moderate heat stress (THI 28-32)"
+    },
+    "Dangerous": {
+      "aqi_max": 200,
+      "conditions": "High AQI (101-200) OR significant heat stress (THI > 32)"
+    },
+    "Hazardous": {
+      "aqi_min": 200,
+      "conditions": "Very high AQI (>200) - emergency conditions"
+    }
+  },
+  "recommendation_rules": {
+    "safe": {
+      "general": "Good conditions for outdoor activities. Enjoy the fresh air!",
+      "sensitive_groups": "Excellent conditions. Even sensitive groups can engage in outdoor activities.",
+      "activity_level": "all_allowed"
+    },
+    "moderate": {
+      "general": "Limit outdoor activities. Outdoor exercise should be moderated.",
+      "sensitive_groups": "Sensitive groups should limit outdoor activities. Mild respiratory irritation possible.",
+      "activity_level": "light_ok",
+      "precautions": ["Wear masks if sensitive", "Limit duration outdoors", "Avoid strenuous exercise"]
+    },
+    "unhealthy": {
+      "general": "Reduce outdoor activities. Everyone may experience respiratory irritation.",
+      "sensitive_groups": "Sensitive groups should avoid outdoor activities.",
+      "activity_level": "avoid",
+      "precautions": ["Wear N95 masks", "Minimize outdoor exposure", "Use air purifiers indoors"]
+    },
+    "hazardous": {
+      "general": "Avoid outdoor activities. Even short exposure is harmful.",
+      "sensitive_groups": "Must stay indoors. Condition poses serious health risk.",
+      "activity_level": "no_outdoor",
+      "precautions": ["Stay indoors", "Use air purifier", "Wear N95 if must go outside", "Seek medical help if symptoms"]
+    }
+  },
+  "sensitive_groups": [
+    "Children (age < 10)",
+    "Elderly (age > 60)",
+    "Pregnant women",
+    "People with asthma",
+    "People with heart disease",
+    "People with respiratory conditions",
+    "Outdoor workers"
+  ]
+}
