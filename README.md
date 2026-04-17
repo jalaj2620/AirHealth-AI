@@ -18,7 +18,7 @@ A comprehensive machine learning system for predicting air quality risks across 
 - ✅ **Provides recommendations** - AI-generated health advice based on AQI
 - ✅ **Hosts interactive dashboard** - Real-time web interface at localhost:5000
 - ✅ **Offers REST API** - Integration-ready endpoints
-- ✅ **Includes comprehensive analysis** - Full EDA notebook with statistical rigor
+- ✅ **Includes comprehensive analysis** - Full EDA notebook with statitical methods
 
 ---
 
