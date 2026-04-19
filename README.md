@@ -38,7 +38,8 @@ cd "d:\PYTHON .DA projets\New folder\airhealth-ai"
 # 2. Create and activate virtual environment
 python -m venv venv
 venv\Scripts\activate          # Windows
-# OR: source venv/bin/activate   # Mac/Linux
+# OR: source venv/bin/activate   # linus
+# try to create the environment with the public data 
 
 # 3. Install dependencies
 pip install -r requirements.txt
