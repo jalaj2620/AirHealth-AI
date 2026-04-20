@@ -13,7 +13,7 @@ A comprehensive machine learning system for predicting air quality risks across 
 
 - ✅ **Predicts air quality risks** across 30+ Indian cities with 92% accuracy
 - ✅ **Collects real-time data** from OpenAQ (AQI) and OpenWeatherMap APIs
-- ✅ **Trains 3 ML models** (Random Forest, Gradient Boosting, SVM)
+- ✅ **Trains 3 ML models** (Random Forest, Gradient Boosting, SVM)[[
 - ✅ **Generates visualizations** - 10+ publication-quality charts for analysis
 - ✅ **Provides recommendations** - AI-generated health advice based on AQI
 - ✅ **Hosts interactive dashboard** - Real-time web interface at localhost:5000
