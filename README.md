@@ -15,7 +15,7 @@ A comprehensive machine learning system for predicting air quality risks across 
 - ✅ **Collects real-time data** from OpenAQ (AQI) and OpenWeatherMap APIs
 - ✅ **Trains 3 ML models** (Random Forest, Gradient Boosting, SVM)[[
 - ✅ **Generates visualizations** - 10+ publication-quality charts for analysis
-- ✅ **Provides recommendations** - AI-generated health advice based on AQI
+- ✅ **Provides recommendations** - AI-generated health advice based on AQI and weather conditions
 - ✅ **Hosts interactive dashboard** - Real-time web interface at localhost:5000
 - ✅ **Offers REST API** - Integration-ready endpoints
 - ✅ **Includes comprehensive analysis** - Full EDA notebook with statitical methods
