@@ -9,7 +9,7 @@ A comprehensive machine learning system for predicting air quality risks across 
 
 ## 🚀 Project Overview
 
-**AirHealth AI** is an end-to-end data analytics system that:
+**AirHealth AI** is an end-to-end data analytics system to predict future Air quality:
 
 - ✅ **Predicts air quality risks** across 30+ Indian cities with 92% accuracy
 - ✅ **Collects real-time data** from OpenAQ (AQI) and OpenWeatherMap APIs
