@@ -50,6 +50,7 @@ copy config\.env.template config\.env
 #   - OPENWEATHERMAP_API_KEY=your_key_here
 #   - DB_USER=root (or your MySQL username)
 #   - DB_PASSWORD=your_mysql_password
+# - uae the environment properly with condfig
 
 # 5. Initialize database (MySQL must be running)
 mysql -u root -p < scripts/init_db.sql
